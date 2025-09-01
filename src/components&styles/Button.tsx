@@ -17,16 +17,6 @@ export default function Button({
   buttonName?: React.ReactNode;
   path?: string;
 }) {
-  // const pathname = usePathname();
-  // console.log(pathname, "pathnnnnn");
-
-  // useEffect(() => {
-  //   const el = document.querySelectorAll(".test")[0];
-  //   if (el) {
-  //     (el as HTMLElement).style.backgroundColor = "red";
-  //   }
-  // }, [pathname]);
-
   return (
     <Link href={path}>
       <button

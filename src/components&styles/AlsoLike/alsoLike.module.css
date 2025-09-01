@@ -1,0 +1,20 @@
+.alsoLikeComponentContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.alsoLikeTitle {
+  margin: 0 auto;
+  text-transform: uppercase;
+  /* 65px -> 50x __ 1440vw -> 768vw */
+  margin-bottom: clamp(3.333rem, 2.19rem + 2.232vw, 4.333rem);
+}
+@media only screen and (max-width: 768px) {
+  .alsoLikeTitle {
+    /* 50px -> 40px __ 768vw -> 375vw */
+    margin-bottom: clamp(2.667rem, 2.031rem + 2.545vw, 3.333rem);
+  }
+  .alsoLikeComponentContainer {
+    flex-direction: column;
+  }
+}

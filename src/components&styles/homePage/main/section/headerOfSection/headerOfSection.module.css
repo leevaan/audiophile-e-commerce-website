@@ -1,0 +1,16 @@
+.headerOfSection {
+  display: flex;
+  justify-content: space-between;
+  /*  30px - 10px__1440vw-768wv */
+  gap: clamp(1.875rem, 3.3036rem + -2.9762vw, 0.625rem);
+  /*  168px - 96px__1440vw-768wv */
+  margin-bottom: clamp(6rem, 0.8571rem + 10.7143vw, 10.5rem);
+}
+
+@media only screen and (max-width: 768px) {
+  .headerOfSection {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}

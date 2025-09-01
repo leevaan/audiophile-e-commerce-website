@@ -1,0 +1,94 @@
+.bodyOfSectionBodyOne {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url("/home/desktop/image-speaker-zx7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 320px;
+  /* 95px - 25px __ 1024vw - 375vw */
+  padding-left: clamp(1.5625rem, -0.9654rem + 10.7858vw, 5.9375rem);
+  border-radius: 8px;
+}
+.bodyOfSectionBodyOneButton,
+.bodyOfSectionBodyTwoRightButton {
+  background-color: var(--buttons-Transparent-Background) !important;
+  color: var(--fontColor-Black) !important;
+  border: 1px solid #000;
+}
+.bodyOfSectionBodyOneButton:hover,
+.bodyOfSectionBodyTwoRightButton:hover {
+  background-color: var(--buttons-BlackHover-Background) !important;
+  color: var(--fontColor-White) !important;
+  transition: all 0.8s;
+}
+.bodyOfSectionBodyOneTitle,
+.bodyOfSectionBodyTwoRightTitle {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  margin-bottom: 35px;
+}
+@media only screen and (max-width: 1024px) {
+  .bodyOfSectionBodyOne {
+    background-image: url("/home/tablet/image-speaker-zx7.jpg");
+  }
+}
+
+@media only screen and (max-width: 654px) {
+  .bodyOfSectionBodyOne {
+    background-image: url("/home/mobile/image-speaker-zx7.jpg");
+  }
+}
+
+.bodyOfSectionBodyTwo {
+  display: flex;
+  justify-content: space-between;
+  /* 30px - 10px __ 1440vw - 1024vw */
+  gap: clamp(0.625rem, -2.4519rem + 4.8077vw, 1.875rem);
+}
+.bodyOfSectionBodyTwoLeft,
+.bodyOfSectionBodyTwoRight {
+  height: 320px;
+  width: 50%;
+  border-radius: 8px;
+}
+.bodyOfSectionBodyTwoLeft {
+  background-image: url("/home/desktop/image-earphones-yx1.jpg");
+  background-size: 100% 100%;
+}
+.bodyOfSectionBodyTwoRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background: #f1f1f1;
+  /* 95px - 25px __ 1024vw - 375vw */
+  padding: 0 clamp(1.5625rem, -0.9654rem + 10.7858vw, 5.9375rem) 0
+    clamp(1.5625rem, -0.9654rem + 10.7858vw, 5.9375rem);
+}
+@media only screen and (max-width: 767px) {
+  .bodyOfSectionBodyTwo {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  .bodyOfSectionBodyTwoLeft,
+  .bodyOfSectionBodyTwoRight {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .bodyOfSectionBodyTwoLeft {
+    background-image: url("/home/mobile/image-earphones-yx1.jpg");
+    background-size: 100% 100%;
+  }
+  .bodyOfSectionBodyTwoLeft,
+  .bodyOfSectionBodyTwoRight {
+    height: 200px;
+  }
+}

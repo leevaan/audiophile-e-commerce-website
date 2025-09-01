@@ -1,0 +1,108 @@
+.headOfMain {
+  background-color: var(--homeHeader-Background);
+  /* 120px-40px 1440vw-375vw */
+  margin-bottom: clamp(2.5rem, 0.7394rem + 7.5117vw, 7.5rem);
+}
+.headOfMainContent {
+  position: relative;
+  z-index: 1;
+}
+.headOfMainContentContainer {
+  display: flex;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  width: 100%;
+}
+.headOfMainDesktopImage {
+  position: absolute;
+  z-index: -1;
+  right: clamp(2.5rem, 18.6012vw - 6.4286rem, 10.3125rem);
+  top: 0;
+}
+.headOfMainMobileImage {
+  display: none;
+}
+.headOfMainTextContainer {
+  padding: 128px 0 158px 0;
+  max-width: 400px;
+  width: 100%;
+  z-index: 1;
+}
+.newProductLabel {
+  color: var(--fontColor-White);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  opacity: 0.4964;
+}
+.headOfMainTitle {
+  color: var(--fontColor-White);
+
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  margin: 25px 0;
+}
+.headOfMainDescription {
+  color: var(--fontColor-White);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+
+  opacity: 0.75;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .headOfMainTextContainer {
+    /* top 128px-108px_768vw-375vw */
+    /* bottom 165px-115px_768vw-375vw */
+    padding: clamp(6.75rem, 5.5573rem + 5.0891vw, 8rem) 0
+      clamp(7.1875rem, 4.2056rem + 12.7226vw, 10.3125rem) 0;
+  }
+  .headOfMainDescription {
+    /* 40px - 28px  768vw - 372vw */
+    margin-bottom: clamp(1.75rem, -2.9155rem + 19.9061vw, 15rem);
+  }
+  /* შემოსატანი მაქ ტაბელტის ნაუშნიკების ფოტო */
+  /* IMAGE */
+  .headOfMainContentContainer {
+    justify-content: center;
+    text-align: center;
+  }
+  .headOfMainTitle {
+    /* 58px-36px_768vw-375vw */
+    font-size: clamp(2.25rem, 0.938rem + 5.598vw, 3.625rem);
+    /* 40px-58px_768vw-375vw */
+    line-height: clamp(2.5rem, 1.4265rem + 4.5802vw, 3.625rem);
+    /* 2px-1.30px_768vw-375vw */
+    letter-spacing: clamp(0.08125rem, 0.0395rem + 0.1781vw, 0.125rem);
+    /* 24px-16px_768vw-375vw */
+    margin-top: clamp(1rem, 0.5229rem + 2.0356vw, 1.5rem);
+  }
+  .headOfMainDesktopImage {
+    /* height: 680px; */
+    width: 100%;
+    height: 100%;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .headOfMainTabletImage {
+    display: none;
+  }
+  .headOfMainMobileImage {
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+  }
+}

@@ -1,0 +1,6 @@
+.bodyOfSection {
+  display: flex;
+  flex-direction: column;
+  /* 50px - 30px __ 1440vw - 768vw */
+  gap: clamp(1.875rem, 0.4464rem + 2.9762vw, 3.125rem);
+}

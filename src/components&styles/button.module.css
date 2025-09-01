@@ -1,0 +1,17 @@
+.button {
+  width: 160px;
+  height: 48px;
+  background: var(--buttons-Gold-Background);
+  cursor: pointer;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--fontColor-White);
+}
+.button:hover {
+  background-color: var(--buttons-GoldHover-Background);
+  transition: 0.8s;
+}

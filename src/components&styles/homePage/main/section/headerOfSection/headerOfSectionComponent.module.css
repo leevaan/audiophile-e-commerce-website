@@ -1,0 +1,84 @@
+.headerOfSection {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  max-width: 350px;
+  width: 100%;
+  /* height: 285px; */
+  height: auto;
+  /*  30px - 22px__1440vw-768wv */
+  padding-bottom: clamp(1.375rem, 0.8036rem + 1.1905vw, 1.875rem);
+}
+.headerOfSection::before {
+  content: "";
+  position: absolute;
+  /* inset: 0; */
+  width: 100%;
+  /*  205px - 165px__1440vw-768wv */
+  height: clamp(12.8125rem, 13.6928rem + -3.7559vw, 10.3125rem);
+  bottom: 0;
+  left: 0;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  z-index: -1;
+}
+.headerOfSectionImage {
+  /*  220px - 200px__1440vw-768wv */
+  width: clamp(13.75rem, 15.1786rem + -2.9762vw, 12.5rem);
+  /* 200px - 180px__1440vw-768vw */
+  height: clamp(12.5rem, 13.9286rem + -2.9762vw, 11.25rem);
+}
+.headerOfSection button {
+  color: rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+.headerOfSection button::after {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 12px;
+  background-image: url("/icon-arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-left: 10px;
+  opacity: 1;
+}
+.headerOfSection h4 {
+  color: #000;
+  /*  18px - 15px__1440vw-375wv */
+  font-size: clamp(0.9375rem, 0.8715rem + 0.2817vw, 1.125rem);
+  /*  1.2px - 1px__1440vw-375wv */
+  letter-spacing: clamp(0.0625rem, 0.0581rem + 0.0188vw, 0.075rem);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: -10px;
+}
+
+.headerOfSection button:hover {
+  color: var(--buttons-ShopHover-Background);
+}
+@media only screen and (max-width: 768px) {
+  .headerOfSection {
+    /* 96px -> 120px როცა 768px -> 375px */
+    margin-bottom: clamp(
+      96px,
+      calc(96px + 24 * ((768px - 100vw) / 393)),
+      120px
+    );
+    margin-bottom: 0;
+    max-width: none;
+  }
+  .headerOfSectionImage {
+    /*  220px - 200px__768wv-375*vw */
+    width: clamp(13.75rem, 14.9427rem + -5.0891vw, 12.5rem);
+    /* 200px - 180px__768vw-375*vw */
+    height: clamp(12.5rem, 13.6927rem + -5.0891vw, 11.25rem);
+  }
+}

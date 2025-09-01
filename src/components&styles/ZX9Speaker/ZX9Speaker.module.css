@@ -1,0 +1,15 @@
+.ZX9Speaker {
+  display: flex;
+  flex-direction: column;
+  /* 160px -> 120px __ 1024vw - 768vw */
+  gap: clamp(7.5rem, 0rem + 15.625vw, 10rem);
+}
+.shopProductsLine {
+  margin-bottom: 0 !important;
+}
+@media screen and (min-width: 768px) {
+  .ZX9Speaker {
+    /* 120px -> 90px __ 768vw -> 375vw */
+    gap: clamp(5.625rem, 3.8359rem + 7.6336vw, 7.5rem);
+  }
+}

@@ -1,0 +1,21 @@
+.backButton {
+  display: inline-block;
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.5;
+  cursor: pointer;
+  /* 80px - 30px __ `1440vw - 768vw` */
+  margin-top: clamp(1.875rem, -1.6964rem + 7.4405vw, 5rem);
+  /* 55px - 25px __ `1440vw - 768vw` */
+  margin-bottom: clamp(1.5625rem, -0.5804rem + 4.4643vw, 3.4375rem);
+}
+
+@media screen and (max-width: 768px) {
+  .backButton {
+    /* 30px - 20px __ `768vw - 375vw` */
+    margin-top: clamp(0.9375rem, 0.0429rem + 3.8168vw, 1.875rem);
+  }
+}

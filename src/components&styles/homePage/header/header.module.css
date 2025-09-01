@@ -1,0 +1,133 @@
+.header {
+  background-color: var(--homeHeader-Background);
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  /* 36px - 32px__1440w - 768w */
+  padding-top: clamp(2rem, 1.7143rem + 0.5952vw, 2.25rem);
+  padding-bottom: clamp(2rem, 1.7143rem + 0.5952vw, 2.25rem);
+}
+
+.navLink {
+  color: var(--fontColor-White);
+  font-family: Manrope;
+  /* 13px - 12px__1024w - 500w */
+  font-size: clamp(0.75rem, 0.6904rem + 0.1908vw, 0.8125rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 192.308% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.navLink:hover {
+  color: var(--buttons-ShopHover-Background);
+  transition: 0.8s;
+}
+.burgerIcon {
+  display: none;
+  cursor: pointer;
+  fill: aqua;
+  z-index: 3;
+}
+.burgerIcon:hover rect {
+  fill: var(--buttons-ShopHover-Background);
+  transition: 0.8s;
+}
+.navListRight {
+  gap: 20px;
+}
+.secondMenuNav {
+  display: none;
+  max-width: 435px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+.navList {
+  display: flex;
+  gap: 34px;
+  justify-content: space-between;
+}
+.active {
+  color: var(--buttons-ShopHover-Background);
+  opacity: 1;
+}
+.menuBackdrop {
+  position: absolute;
+  height: 100%;
+  inset: 0;
+  background: rgb(0, 0, 0, 0.3);
+  z-index: 2;
+}
+.burgerMenuNav {
+  flex-direction: column;
+  position: absolute;
+  height: auto;
+  width: calc(100% - 50.1776px);
+  background-color: rgb(20, 20, 20);
+  z-index: 2;
+  top: 79px;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  padding: 30px 0;
+  border-radius: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.burgerMenuList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.burgerMenuList li:hover {
+  cursor: pointer;
+}
+.burgerMenuList li:hover .navLink {
+  width: auto;
+  color: var(--buttons-ShopHover-Background);
+}
+.navListRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.test {
+  opacity: 0.7;
+}
+.test:hover {
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+/* 1024px Tablet */
+@media only screen and (max-width: 1024px) {
+  .secondMenuNav {
+    display: block;
+  }
+  .headerContainer {
+    padding-bottom: 25px;
+  }
+  .navLink {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .burgerIcon {
+    display: block;
+  }
+  .navList,
+  .secondMenuNav {
+    display: none;
+  }
+}
+/* When the burger menu is collapsed and the viewport is enlarged, it will automatically disappear.*/
+@media only screen and (min-width: 500px) {
+  .burgerMenuNav,
+  .menuBackdrop {
+    display: none !important;
+  }
+}

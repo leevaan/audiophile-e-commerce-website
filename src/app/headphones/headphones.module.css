@@ -1,0 +1,36 @@
+.mainSpeakers {
+  background-color: var(--white-background);
+}
+.speakersContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.navTitleBackground {
+  background-color: var(--homeHeader-Background);
+}
+.navTitle {
+  max-width: 1100px;
+  width: 100%;
+}
+.headphones {
+  display: flex;
+  flex-direction: column;
+  /* 160px -> 120px __ 1024vw - 768vw */
+  gap: clamp(8rem, 0rem + 15.625vw, 10.667rem);
+  /* 160px -> 120px __ 1024vw - 768vw */
+  padding-top: clamp(8rem, 0rem + 15.625vw, 10.667rem);
+}
+.countButtonContainer {
+  display: none !important;
+}
+.XX99MarkI {
+  flex-direction: row-reverse;
+}
+.XX99MarkIOverline,
+.XX59Overline {
+  display: none;
+}
+.ShopProductsLine {
+  margin-bottom: 0 !important;
+}

@@ -1,0 +1,35 @@
+.mainSpeakers {
+  background-color: var(--white-background);
+}
+.speakersContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.navTitleBackground {
+  background-color: var(--homeHeader-Background);
+}
+.navTitle {
+  max-width: 1100px;
+  width: 100%;
+}
+.earphones {
+  display: flex;
+  flex-direction: column;
+  /* 160px -> 120px __ 1024vw - 768vw */
+  gap: clamp(8rem, 0rem + 15.625vw, 10.667rem);
+  /* 160px -> 120px __ 1024vw - 768vw */
+  padding-top: clamp(8rem, 0rem + 15.625vw, 10.667rem);
+}
+.countButtonContainer {
+  display: none !important;
+}
+.ShopProductsLine {
+  margin-bottom: 0 !important;
+}
+@media screen and (min-width: 768px) {
+  .pricePage {
+    /* 120px -> 90px __ 768vw -> 375vw */
+    gap: clamp(5.625rem, 3.8359rem + 7.6336vw, 7.5rem);
+  }
+}

@@ -2,8 +2,8 @@
 import styles from "./login.module.css";
 import Link from "next/link";
 //  components
-import Button from "../../components&styles/Button";
-import Navtitle from "../../components&styles/NavTitle";
+import Button from "../../component_styles/Button";
+import Navtitle from "../../component_styles/NavTitle";
 
 export default async function LoginPage() {
   return (

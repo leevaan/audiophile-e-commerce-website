@@ -3,8 +3,8 @@
 import styles from "./register.module.css";
 import Link from "next/link";
 // components
-import Navtitle from "../../components&styles/NavTitle";
-import Button from "../../components&styles/Button";
+import Navtitle from "../../component_styles/NavTitle";
+import Button from "../../component_styles/Button";
 
 export default function RegisterPage() {
   return (

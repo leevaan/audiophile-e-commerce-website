@@ -1,9 +1,9 @@
-import Navtitle from "@/components&styles/NavTitle";
+import Navtitle from "@/component_styles/NavTitle";
 import { Metadata } from "next";
-import ShopProductsLine from "../../components&styles/ShopProductsLine";
+import ShopProductsLine from "../../component_styles/ShopProductsLine";
 import styles from "./speakers.module.css";
 // components
-import ImageAndText from "@/components&styles/ImageAndText";
+import ImageAndText from "@/component_styles/ImageAndText";
 
 export const metadata: Metadata = {
   title: "Speakers | Audiophile",

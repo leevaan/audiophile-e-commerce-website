@@ -1,9 +1,9 @@
 // import styles from "./page.module.css";
 
 // Components
-import HeadOfMain from "@/components&styles/homePage/main/HeadOfMain";
-import BodyOfSection from "@/components&styles/homePage/main/section/bodyOfSection/BodyOfSection";
-import HeaderOfSection from "@/components&styles/homePage/main/section/headerOfSection/HeaderOfSection";
+import HeadOfMain from "@/component_styles/homePage/main/HeadOfMain";
+import BodyOfSection from "@/component_styles/homePage/main/section/bodyOfSection/BodyOfSection";
+import HeaderOfSection from "@/component_styles/homePage/main/section/headerOfSection/HeaderOfSection";
 
 export default function Home() {
   return (

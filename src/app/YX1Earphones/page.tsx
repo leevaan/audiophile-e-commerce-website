@@ -1,8 +1,8 @@
 // "use client";
 import type { Metadata } from "next";
 // Components
-import YX1Earphones from "@/components&styles/YX1Earphones/YX1Earphones";
-import BackButton from "@/components&styles/BackButton";
+import YX1Earphones from "@/component_styles/YX1Earphones/YX1Earphones";
+import BackButton from "@/component_styles/BackButton";
 
 export const metadata: Metadata = {
   title: "ZX7 Speaker | Audiophile",

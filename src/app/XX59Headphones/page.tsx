@@ -1,8 +1,8 @@
 // "use client";
 import type { Metadata } from "next";
 // Components
-import XX59Headphones from "@/components&styles/XX59Headphones/XX59Headphones";
-import BackButton from "@/components&styles/BackButton";
+import XX59Headphones from "@/component_styles/XX59Headphones/XX59Headphones";
+import BackButton from "@/component_styles/BackButton";
 
 export const metadata: Metadata = {
   title: "XX99 Mark II Headphones | Audiophile",

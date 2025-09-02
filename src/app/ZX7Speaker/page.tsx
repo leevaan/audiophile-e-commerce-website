@@ -1,8 +1,8 @@
 // "use client";
 import type { Metadata } from "next";
 // Components
-import ZX7Speaker from "@/components&styles/ZX7Speaker/ZX7Speaker";
-import BackButton from "@/components&styles/BackButton";
+import ZX7Speaker from "@/component_styles/ZX7Speaker/ZX7Speaker";
+import BackButton from "@/component_styles/BackButton";
 
 export const metadata: Metadata = {
   title: "ZX7 Speaker | Audiophile",

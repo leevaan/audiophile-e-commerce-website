@@ -2,8 +2,8 @@
 import type { Metadata } from "next";
 // import { PageProps } from "@/components&styles/Types";
 // Components
-import ZX9Speaker from "@/components&styles/ZX9Speaker/ZX9Speaker";
-import BackButton from "@/components&styles/BackButton";
+import ZX9Speaker from "@/component_styles/ZX9Speaker/ZX9Speaker";
+import BackButton from "@/component_styles/BackButton";
 
 export const metadata: Metadata = {
   title: "ZX9 Speaker | Audiophile",

@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 import styles from "./earphones.module.css";
-import ShopProductsLine from "../../components&styles/ShopProductsLine";
+import ShopProductsLine from "../../component_styles/ShopProductsLine";
 // components
-import Navtitle from "../../components&styles/NavTitle";
-import ImageAndText from "@/components&styles/ImageAndText";
+import Navtitle from "../../component_styles/NavTitle";
+import ImageAndText from "@/component_styles/ImageAndText";
 
 export const metadata: Metadata = {
   title: "Earphones | Audiophile",

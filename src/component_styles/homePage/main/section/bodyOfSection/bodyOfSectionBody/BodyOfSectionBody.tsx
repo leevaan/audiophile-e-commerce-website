@@ -1,5 +1,5 @@
 import styles from "./bodyOfSectionBody.module.css";
-import Button from "@/components&styles/Button";
+import Button from "@/component_styles/Button";
 
 export default function BodyOfSectionBody() {
   return (

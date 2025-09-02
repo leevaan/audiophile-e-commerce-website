@@ -1,7 +1,7 @@
 import styles from "@/components&styles/homePage/main/section/headerOfSection/headerOfSection.module.css";
 
 // Component
-import HeaderOfSectionComponent from "@/components&styles/homePage/main/section/headerOfSection/HeaderOfSectionComponent";
+import HeaderOfSectionComponent from "@/component_styles/homePage/main/section/headerOfSection/HeaderOfSectionComponent";
 
 export default function HeaderOfSection({
   className = "",

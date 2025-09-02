@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./hedOfMain.module.css";
 
 // Components
-import Button from "@/components&styles/Button";
+import Button from "@/component_styles/Button";
 
 export default function HeadOfMain() {
   return (

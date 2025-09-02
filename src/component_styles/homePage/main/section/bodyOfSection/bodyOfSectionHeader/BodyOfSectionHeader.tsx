@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "@/components&styles/homePage/main/section/bodyOfSection/bodyOfSectionHeader/bodyOfSectionHeader.module.css";
+import styles from "@/component_styles/homePage/main/section/bodyOfSection/bodyOfSectionHeader/bodyOfSectionHeader.module.css";
 import Button from "@/component_styles/Button";
 
 export default function BodyOfSectionHeader() {

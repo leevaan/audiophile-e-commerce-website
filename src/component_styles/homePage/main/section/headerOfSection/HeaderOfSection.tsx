@@ -1,4 +1,4 @@
-import styles from "@/components&styles/homePage/main/section/headerOfSection/headerOfSection.module.css";
+import styles from "@/component_styles/homePage/main/section/headerOfSection/headerOfSection.module.css";
 
 // Component
 import HeaderOfSectionComponent from "@/component_styles/homePage/main/section/headerOfSection/HeaderOfSectionComponent";

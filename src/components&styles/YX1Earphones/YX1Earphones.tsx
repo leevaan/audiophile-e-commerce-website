@@ -56,15 +56,14 @@ export default function YX1Earphones() {
         bigMobileImg="/productYX1Earphones/mobile/image-gallery-3.jpg"
       />
       <AlsoLike
-        imgPathOne="/alsoLike/XX99"
-        imgPathTwo="/alsoLike/XX59"
-        imgPathThree="/alsoLike/ZX9"
+        imgPathOne="/alsoLike/xx99one.png"
+        imgPathTwo="/alsoLike/xx59.png"
+        imgPathThree="/alsoLike/zx9.png"
         titleOne="XX99 MARK I"
         titleTwo="XX59"
         titleThree="ZX9 SPEAKER"
         seeProductPathOne="/XX99MarkIHeadphones"
-        seeProductPathTwo="/XX59Headphones   llbalance
-        "
+        seeProductPathTwo="/XX59Headphones"
         seeProductPaththree="/ZX9Speaker"
       />
       <ShopProductsLine className={styles.shopProductsLine} />

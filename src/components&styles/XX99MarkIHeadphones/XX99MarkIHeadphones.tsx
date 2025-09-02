@@ -53,7 +53,7 @@ export default function XX99MarkIHeadphones() {
         bigMobileImg="/productXX99MarkIHeadphones/mobile/image-gallery-3.jpg"
       />
       <AlsoLike
-        imgPathOne="/alsoLike/XX99Two"
+        imgPathOne="/alsoLike/xx99two.png"
         titleOne="XX99 MARK II"
         seeProductPathOne="/XX99MarkIIHeadphones"
         seeProductPathTwo="/XX59Headphones"

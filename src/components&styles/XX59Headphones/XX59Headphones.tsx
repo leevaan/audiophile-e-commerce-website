@@ -55,9 +55,9 @@ export default function XX59Headphones() {
         bigMobileImg="/productXX59Headphones/mobile/image-gallery-3.jpg"
       />
       <AlsoLike
-        imgPathOne="/alsoLike/XX99Two"
-        imgPathTwo="/alsoLike/XX99"
-        imgPathThree="/alsoLike/ZX9"
+        imgPathOne="/alsoLike/xx99two.png"
+        imgPathTwo="/alsoLike/xx99one.png"
+        imgPathThree="/alsoLike/zx9.png"
         titleOne="XX99 MARK II"
         titleTwo="XX99 MARK I"
         titleThree="ZX9 SPEAKER"

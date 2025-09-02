@@ -54,9 +54,9 @@ export default function ZX9Speaker() {
         bigMobileImg="/productZX9Speaker/mobile/image-gallery-3.jpg"
       />
       <AlsoLike
-        imgPathOne="/alsoLike/ZX7"
-        imgPathTwo="/alsoLike/XX99"
-        imgPathThree="/alsoLike/XX59"
+        imgPathOne="/alsoLike/zx7.png"
+        imgPathTwo="/alsoLike/xx99one.png"
+        imgPathThree="/alsoLike/xx59.png"
         titleOne="ZX7 SPEAKER"
         titleTwo="XX99 MARK I"
         titleThree="XX59"

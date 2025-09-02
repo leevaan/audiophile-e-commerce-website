@@ -2,9 +2,9 @@ import AlsoLikeProduct from "./AlsoLikeProduct/AlsoLikeProduct";
 import styles from "./alsoLike.module.css";
 
 export default function AlsoLike({
-  imgPathOne = "/alsoLike/XX99",
-  imgPathTwo = "/alsoLike/XX59",
-  imgPathThree = "/alsoLike/ZX9",
+  imgPathOne = "/alsoLike/xx99one.png",
+  imgPathTwo = "/alsoLike/xx59.png",
+  imgPathThree = "/alsoLike/zx9.png",
   titleOne = "XX99 MARK I",
   titleTwo = "XX59",
   titleThree = "ZX9 SPEAKER",

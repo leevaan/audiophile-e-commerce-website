@@ -29,7 +29,6 @@ export default function RootLayout({
         <Header />
         <main>
           {children}
-          {/* <Test forHompPage={styles.forHompPage} /> */}
           <FooterUpContent />
         </main>
         <Footer />

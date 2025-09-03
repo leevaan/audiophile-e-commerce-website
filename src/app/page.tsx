@@ -7,7 +7,6 @@ import HeaderOfSection from "@/component_styles/homePage/main/section/headerOfSe
 
 export default function Home() {
   return (
-    // <main className={`${styles.main} `}>
     <>
       <HeadOfMain />
       {/* body of main section */}
@@ -16,6 +15,5 @@ export default function Home() {
         <BodyOfSection />
       </section>
     </>
-    // </main>
   );
 }

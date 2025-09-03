@@ -32,7 +32,7 @@
 }
 @media only screen and (max-width: 768px) {
   .imageContainer {
-    flex-direction: column;
+    flex-direction: column !important;
     width: 100%;
   }
   .img {
